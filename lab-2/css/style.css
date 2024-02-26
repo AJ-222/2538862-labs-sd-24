@@ -61,7 +61,7 @@ a{
 }
 #pageBody{
     margin-top: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 75px;
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -76,10 +76,7 @@ a{
     margin: 0;
 }
 
-
 #aboutUs{
-    text-align: center;
-    width: 100%;
     flex-wrap: wrap;
     flex-basis: 100%;
 }
