@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
+
     margin-bottom: 0;
     flex-wrap: wrap;
     text-align: center;
@@ -18,36 +18,33 @@ a{
 
 .headingItem{
     margin-right: 15px;
+    font-size: 12px;
 
 }
 .bodyHeads{
     margin-top: 10px;
     font-size: 25px;
     margin-bottom: 5px;
+    flex-basis: 100%;
 }
-.mainSubGroups{
+.articleSubGroups{
     border: grey 0.5px;
-    border-style: solid;
-    flex: 3;
+    border-style: solid;    
     display: inline-flex;
     justify-content: center;
-    margin-top: 15px;
+    margin: 15px -2.5px 0px -2.5px;
     flex-wrap: wrap;
     text-align: center;
     max-width: 600px;
     padding: 0 10px 10px 10px;
 }
 .subLabels{
-    flex: 2;
     margin-top: 0;
     font-size: 15px;
     text-align: center;
     flex-basis: 100%;
-    flex-wrap: wrap;
 }
 .subHeadings{
-    flex: 1;
-    flex-wrap: wrap;
     text-align: center;
     flex-basis: 100%;
     margin-top: 10px;
@@ -69,22 +66,25 @@ a{
     flex-wrap: wrap;
     height: 100%;
     text-align: center;
-    flex: 2;
     padding-bottom: 2%;
     justify-content: center;
 }
+
+
+#ourServices{
+    padding: 0;
+    margin: 0;
+}
+
+
 #aboutUs{
     text-align: center;
-    flex: 1;
     width: 100%;
-    flex-basis: 100%;
     flex-wrap: wrap;
+    flex-basis: 100%;
 }
 #ourServicesHeader{
-    flex: 2;
     width: 100%;
-    flex-basis: 100%;
-    flex-wrap: wrap;
     text-align: center;
     margin-top: 15px;
 }
@@ -99,12 +99,10 @@ a{
     justify-content: space-around;
     position: absolute;   
     left: 0;
-    flex-basis: 100%;
     align-items: center;
     font-size: 10px;
     flex-wrap: wrap;
     text-align: center;
-    flex: 1;
 }
 #bottomBar{
     background-color: black;
@@ -122,5 +120,5 @@ a{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    align-items: center;
+    align-items: center;    
 }
