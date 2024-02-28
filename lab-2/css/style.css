@@ -38,8 +38,9 @@ a{
     max-width: 600px;
     padding: 0 10px 10px 10px;
 }
-.subLabels{
+.subText{
     margin-top: 0;
+    margin-bottom: 5px;
     font-size: 15px;
     text-align: center;
     flex-basis: 100%;
@@ -51,7 +52,7 @@ a{
     margin-bottom: 5px;
 }
 
-.bodyLabels{
+.bodyText{
     font-size: 15px;
 }
 .pageImage{
@@ -110,7 +111,7 @@ a{
     margin-bottom: 0;
     left: 0;
 }
-#luckyLabel{
+#luckyText{
     font-size: 90%;
 }
 #linkList{
